@@ -1,0 +1,194 @@
+header{
+  position:relative;
+  height: 100px;
+  width:1335px;
+  box-shadow: 5px 5px 5px #ccc;
+  margin-bottom: 50px;
+}
+
+header > a{
+  float:left;
+  margin-top: 10px;
+  margin-left:15px;
+  margin-bottom: 0;
+  font-size:51px;
+  text-transform: uppercase;
+  font-family: arial;
+  text-decoration: none;
+  color:black;
+}
+
+
+header>#pesquisador{
+  position: absolute;
+  top:24px;
+  left:250px;
+}
+
+header>#pesquisador>input{
+  width:400px;
+  border:1px solid #ccc;
+  padding:5px;
+}
+
+header>#pesquisador>button{
+  width:100px;
+  border:1px solid #0f0;
+  padding:5px;
+  background-color:#0f0;
+  color:white;
+  font-size:14px;
+  cursor:pointer;
+}
+
+
+header >nav{
+  float:right;
+  margin-top:30px;
+  margin-right: 25px;
+}
+
+header > nav >a{
+  color:#444;
+  text-decoration: none;
+  margin-right: 30px;
+  font-size:18px;
+}
+
+header > nav >a:last-of-type{
+  margin-right:0px;
+}
+
+header > nav >a:hover{
+  border-bottom:1px solid #777;
+}
+
+#primeira_explicao{
+  height:300px;
+  width:1335px;
+}
+
+#primeira_explicao>img{
+  position: relative;
+  height:100%;
+  width:720px;
+  float:left;
+}
+
+#primeira_explicao >p{
+  width:570px;
+  margin-top:5px;
+  margin-left:30px;
+  float:left;
+  font-size:22px;
+  font-family:georgia;
+  text-transform: uppercase;
+  color:#777;
+  text-shadow: 5px 5px 5px #aaa;
+  line-height: 55px;
+  word-spacing: 5px;
+}
+
+#segunda_explicao{
+  position: relative;
+  height: 231px;
+  width:1330px;
+  margin-top:50px;
+  margin-bottom:60px;
+  padding-top:5px;
+  padding-bottom:5px;
+  background-color:#009cde;
+}
+
+
+#segunda_explicao > p{
+  width:1300px;
+  text-align: center;
+  font-size:21px;
+  color:white;
+  text-transform: uppercase;
+   line-height:50px;
+  font-family: Helvetica;
+
+}
+
+#terceira_explicao{
+  position: relative;
+  height: 300px;
+  width:1330px;
+  margin-top:50px;
+  margin-bottom:60px;
+  background-color:#00f0a0;
+}
+
+
+#terceira_explicao >img{
+  float:left;
+  height:100%;
+  width:500px;
+}
+
+#terceira_explicao>h1{
+  float:left;
+  margin-left:70px;
+  margin-bottom:5px;
+  text-transform: uppercase;
+  color:white;
+  font-family: Helvetica;
+  font-weight:100;
+}
+
+#terceira_explicao>ul{
+  float:left;
+  margin-left:30px;
+}
+
+#terceira_explicao>ul>li{
+  list-style: none;
+  font-family: arial;
+  color:white;
+  font-size:19px;
+  line-height:35px;
+}
+
+#quarta_explicao{
+  position: relative;
+  margin-bottom:40px;
+  height:500px;
+  width:1320px;
+}
+
+#quarta_explicao >div{
+  position:relative;
+  float:left;
+  height:500px;
+  width:350px;
+  margin-left:50px;
+  background-color: #50f0f0;
+}
+
+#quarta_explicao>div>div{
+  margin-top:50px;
+  margin-left:90px;
+  height: 150px;
+  width: 150px;
+  border-radius: 70px;
+  background-color: white;
+}
+
+#quarta_explicao>div:first-of-type{
+  margin-right: 45px;
+}
+
+#quarta_explicao >#taxa_empresa_online{
+  margin-left: 80px;
+}
+
+footer{
+  position: relative;
+  left:0;
+  bottom:0;
+  height:20px;
+  width:1329px;
+  background-color:#0ff;
+}
